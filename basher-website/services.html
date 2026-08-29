@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Services — Basher</title>
+<meta name="description" content="Audit and attestation, internal control, accounting and tax services offered by Basurto Herrera Consultores, S.C.">
+<link rel="icon" href="assets/logo-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Libre+Franklin:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="brand"><img src="assets/logo-wordmark-small.png" class="brand-logo" alt="Basher"></a>
+    <nav class="main-nav" id="mainNav">
+      <a href="index.html" data-i18n="nav.home">Home</a>
+      <a href="about.html" data-i18n="nav.about">About Us</a>
+      <a href="services.html" class="active" data-i18n="nav.services">Services</a>
+      <a href="clients.html" data-i18n="nav.clients">Clients</a>
+      <a href="contact.html" class="nav-cta" data-i18n="nav.contact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <button class="lang-toggle" id="langToggle" aria-label="Switch language">
+        <span class="lang-en" data-active="true">EN</span><span class="lang-sep">/</span><span class="lang-es">ES</span>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="corner-flag"></div>
+  <div class="container">
+    <div class="eyebrow" data-i18n="servicesPage.eyebrow">What we do</div>
+    <h1 data-i18n="servicesPage.title">Our services</h1>
+    <p data-i18n="servicesPage.lede">Regulatory compliance, assurance and advisory services designed to build value and trust with every engagement.</p>
+  </div>
+</section>
+
+<nav class="services-nav" aria-label="Service sections">
+  <div class="container services-nav-inner">
+    <a href="#auditoria" data-i18n="svc.auditoriaTitle">Audit</a>
+    <a href="#asesoria" data-i18n="svc.asesoriaTitle">Advisory</a>
+    <a href="#cumplimiento" data-i18n="svc.cumplimientoTitle">Accounting &amp; Tax Compliance</a>
+    <a href="#tributaria" data-i18n="svc.tributariaTitle">Tax Consulting</a>
+    <a href="#reestructuras" data-i18n="svc.reestructurasTitle">Corporate Restructuring</a>
+    <a href="#litigio" data-i18n="svc.litigioTitle">Tax Litigation &amp; Dispute Resolution</a>
+    <a href="#administrativos" data-i18n="svc.administrativosTitle">Administrative Services &amp; Soft Landing</a>
+  </div>
+</nav>
+
+<section class="section-tight services-accordion">
+  <div class="container">
+    <div class="services-list">
+
+      <div class="service-detail" id="auditoria">
+        <h2 class="service-detail-head reveal">
+          <button type="button" class="service-detail-toggle" aria-expanded="false" aria-controls="auditoria-panel">
+            <span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4M12 3l7 4v5c0 5-3.5 8-7 9-3.5-1-7-4-7-9V7l7-4z"/></svg></span>
+            <span class="service-detail-title" data-i18n="svc.auditoriaTitle">Audit</span>
+            <span class="service-detail-chevron-wrap"><svg class="service-detail-chevron" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></span>
+          </button>
+        </h2>
+        <div class="service-detail-panel" id="auditoria-panel">
+          <div class="service-detail-panel-inner">
+            <div class="grid-2">
+              <p class="service-detail-body" data-i18n="svc.auditoriaIntro">Our external audit service uses a methodology that supports the issuance of the audit report, providing assurance on the reasonableness of our clients' financial statements.</p>
+              <ul class="check-list" data-i18n="svc.auditoriaChecklist">
+                <li>Financial statement audits</li>
+                <li>Specific-purpose audits</li>
+                <li>Internal control structure reviews</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="service-detail" id="asesoria">
+        <h2 class="service-detail-head reveal">
+          <button type="button" class="service-detail-toggle" aria-expanded="false" aria-controls="asesoria-panel">
+            <span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 5c3-1.5 6-1.5 8 0v14c-2-1.5-5-1.5-8 0V5z"/><path d="M20 5c-3-1.5-6-1.5-8 0v14c2-1.5 5-1.5 8 0V5z"/></svg></span>
+            <span class="service-detail-title" data-i18n="svc.asesoriaTitle">Advisory</span>
+            <span class="service-detail-chevron-wrap"><svg class="service-detail-chevron" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></span>
+          </button>
+        </h2>
+        <div class="service-detail-panel" id="asesoria-panel">
+          <div class="service-detail-panel-inner">
+            <ul class="check-list detail-list" data-i18n="svc.asesoria">
+              <li>We support our clients in adopting and transitioning to Mexican Financial Reporting Standards (NIF), International Financial Reporting Standards (IFRS), and U.S. GAAP.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="service-detail" id="cumplimiento">
+        <h2 class="service-detail-head reveal">
+          <button type="button" class="service-detail-toggle" aria-expanded="false" aria-controls="cumplimiento-panel">
+            <span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3h9l5 5v13H6z"/><path d="M15 3v5h5M9 13h6M9 17h6"/></svg></span>
+            <span class="service-detail-title" data-i18n="svc.cumplimientoTitle">Accounting &amp; Tax Compliance</span>
+            <span class="service-detail-chevron-wrap"><svg class="service-detail-chevron" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></span>
+          </button>
+        </h2>
+        <div class="service-detail-panel" id="cumplimiento-panel">
+          <div class="service-detail-panel-inner">
+            <ul class="check-list detail-list" data-i18n="svc.cumplimiento">
+              <li>Diagnosis of accounting and tax compliance, both local and international.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="service-detail" id="tributaria">
+        <h2 class="service-detail-head reveal">
+          <button type="button" class="service-detail-toggle" aria-expanded="false" aria-controls="tributaria-panel">
+            <span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v10M15 9.5c0-1.4-1.5-2.5-3-2.5s-3 .8-3 2.2 1.5 2 3 2.3 3 .9 3 2.3-1.5 2.2-3 2.2-3-1.1-3-2.5"/></svg></span>
+            <span class="service-detail-title" data-i18n="svc.tributariaTitle">Tax Consulting</span>
+            <span class="service-detail-chevron-wrap"><svg class="service-detail-chevron" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></span>
+          </button>
+        </h2>
+        <div class="service-detail-panel" id="tributaria-panel">
+          <div class="service-detail-panel-inner">
+            <ul class="check-list detail-list" data-i18n="svc.tributaria">
+              <li>We work alongside our clients as business partners, providing specialized professional tax services tailored to their needs.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="service-detail" id="reestructuras">
+        <h2 class="service-detail-head reveal">
+          <button type="button" class="service-detail-toggle" aria-expanded="false" aria-controls="reestructuras-panel">
+            <span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l9 5-9 5-9-5 9-5z"/><path d="M3 12l9 5 9-5"/><path d="M3 17l9 5 9-5"/></svg></span>
+            <span class="service-detail-title" data-i18n="svc.reestructurasTitle">Corporate Restructuring</span>
+            <span class="service-detail-chevron-wrap"><svg class="service-detail-chevron" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></span>
+          </button>
+        </h2>
+        <div class="service-detail-panel" id="reestructuras-panel">
+          <div class="service-detail-panel-inner">
+            <ul class="check-list detail-list" data-i18n="svc.reestructuras">
+              <li>Tax diagnostics for companies deciding to acquire, sell, merge or spin off, identifying opportunities and potential risks or contingencies.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="service-detail" id="litigio">
+        <h2 class="service-detail-head reveal">
+          <button type="button" class="service-detail-toggle" aria-expanded="false" aria-controls="litigio-panel">
+            <span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v18M5 7h14M5 7l-3 6a4 4 0 008 0L5 7zM19 7l-3 6a4 4 0 008 0L19 7z"/></svg></span>
+            <span class="service-detail-title" data-i18n="svc.litigioTitle">Tax Litigation &amp; Dispute Resolution</span>
+            <span class="service-detail-chevron-wrap"><svg class="service-detail-chevron" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></span>
+          </button>
+        </h2>
+        <div class="service-detail-panel" id="litigio-panel">
+          <div class="service-detail-panel-inner">
+            <ul class="check-list detail-list" data-i18n="svc.litigio">
+              <li>Filing legal defenses against tax rulings that cause harm (refund denials, responses to requirements, clarifications, audits, etc.).</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="service-detail" id="administrativos">
+        <h2 class="service-detail-head reveal">
+          <button type="button" class="service-detail-toggle" aria-expanded="false" aria-controls="administrativos-panel">
+            <span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19V10M10 19V5M16 19v-7M4 19h16"/></svg></span>
+            <span class="service-detail-title" data-i18n="svc.administrativosTitle">Administrative Services &amp; Soft Landing</span>
+            <span class="service-detail-chevron-wrap"><svg class="service-detail-chevron" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></span>
+          </button>
+        </h2>
+        <div class="service-detail-panel" id="administrativos-panel">
+          <div class="service-detail-panel-inner">
+            <p class="service-detail-body" data-i18n="svc.administrativosIntro">Clear, organized administration is the foundation of good decision-making.</p>
+            <div class="grid-2">
+              <ul class="check-list" data-i18n="svc.administrativosLeft">
+                <li>Development of Administrative Dashboards, design and customization of interactive scorecards.</li>
+              </ul>
+              <ul class="check-list" data-i18n="svc.administrativosRight">
+                <li>General administrative services.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="container">
+    <div class="section-head" style="text-align:center; max-width:640px; margin:0 auto 34px;">
+      <div class="eyebrow" data-i18n="tech.eyebrow">Technology at your service</div>
+      <h2 data-i18n="tech.title">Fiscal services powered by technology</h2>
+    </div>
+    <div class="grid-3">
+      <div class="card reveal">
+        <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l7 4v5c0 5-3.5 8-7 9-3.5-1-7-4-7-9V7l7-4z"/><path d="M9.5 12l1.8 1.8L14.5 10"/></svg></div>
+        <h3 data-i18n="tech.efosTitle">EFOS Monitoring</h3>
+        <p style="color:var(--ink-soft); font-size:.96rem;" data-i18n="tech.efosBody">24/7 monitoring of the CFF's Article 69-B and 49-Bis blacklists to screen our clients' suppliers.</p>
+      </div>
+      <div class="card reveal">
+        <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-4.35-9.5-9C1 8 3 4.5 6.5 4.5c2 0 3.3 1.1 4 2 .7-.9 2-2 4-2C18 4.5 20 8 18.5 12c-2.5 4.65-6.5 9-6.5 9z"/><path d="M7 12h2l1.5-3 2 5 1.5-2.5H17"/></svg></div>
+        <h3 data-i18n="tech.saludTitle">Salud Fiscal by Cimatic</h3>
+        <p style="color:var(--ink-soft); font-size:.96rem;" data-i18n="tech.saludBody">A platform that keeps clients informed of their tax status with the SAT, with reporting tools and CFDI management.</p>
+      </div>
+      <div class="card reveal">
+        <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 4h6a1 1 0 011 1v1h1a1 1 0 011 1v13a1 1 0 01-1 1H7a1 1 0 01-1-1V7a1 1 0 011-1h1V5a1 1 0 011-1z"/><path d="M9 12l2 2 4-4"/></svg></div>
+        <h3 data-i18n="tech.repseTitle">REPSE Monitoring</h3>
+        <p style="color:var(--ink-soft); font-size:.96rem;" data-i18n="tech.repseBody">Control, management and safekeeping of the documentation that evidences compliance with REPSE obligations.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="container">
+    <div class="cta-band reveal">
+      <div>
+        <h2 data-i18n="servicesCta.title">Not sure which service you need?</h2>
+        <p data-i18n="servicesCta.body">Tell us about your company's situation and we'll help you find the right scope of work.</p>
+      </div>
+      <a href="contact.html" class="btn btn-outline" data-i18n="servicesCta.button">Talk to us</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <img src="assets/logo-wordmark-large.png" alt="Basher">
+      <p data-i18n="footer.tagline">Passion for what we do…</p>
+    </div>
+    <div class="footer-col">
+      <h4 data-i18n="footer.office">Office</h4>
+      <p data-i18n="footer.addressLine">Av. Paseo de la Reforma 296, Piso 25, Ofna. 110<br>Col. Juárez, Alcaldía Cuauhtémoc<br>C.P. 06600 — Mexico City</p>
+    </div>
+    <div class="footer-col">
+      <h4 data-i18n="footer.contact">Contact</h4>
+      <p data-i18n="footer.contactBlock">Rodolfo Basurto</p>
+    </div>
+    <div class="footer-col">
+      <h4 data-i18n="footer.site">Site</h4>
+      <nav class="footer-nav">
+        <a href="index.html" data-i18n="nav.home">Home</a>
+        <a href="about.html" data-i18n="nav.about">About Us</a>
+        <a href="services.html" data-i18n="nav.services">Services</a>
+        <a href="clients.html" data-i18n="nav.clients">Clients</a>
+        <a href="contact.html" data-i18n="nav.contact">Contact</a>
+      </nav>
+    </div>
+  </div>
+  <div class="footer-bottom container">
+    <p>© <span id="year"></span> Basurto Herrera Consultores, S.C. — <span data-i18n="footer.rights">All rights reserved.</span></p>
+    <p><a href="https://www.basher.com.mx" target="_blank" rel="noopener">www.basher.com.mx</a></p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
