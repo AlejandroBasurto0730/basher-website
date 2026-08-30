@@ -627,8 +627,6 @@ section{ padding: 88px 0; }
 }
 .client-tile:hover{ box-shadow: var(--shadow-sm); transform: translateY(-2px); filter:none; }
 .client-tile img{ max-height: 46px; width:auto; max-width: 100%; object-fit:contain; }
-.client-tile-dark{ background: #12141c; border-color: #12141c; }
-.client-tile-dark:hover{ filter:none; }
 
 .client-category{ margin-bottom: 44px; }
 .client-category:last-child{ margin-bottom: 0; }
