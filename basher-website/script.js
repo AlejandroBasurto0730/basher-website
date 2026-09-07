@@ -18,15 +18,15 @@ const I18N = {
     /* ---------- HOME ---------- */
     hero: {
       eyebrow: "Basurto Herrera Consultores, S.C.",
-      title: "Audit experience and accounting and tax compliance to build a relationship of trust.",
-      lede: "More than 25 years serving public and private companies in Mexico and abroad, with the knowledge and care of a firm that treats every client as a long-term partner.",
+      title: "Audit experience and accounting and tax compliance.",
+      lede: "More than 30 years serving public and private companies in Mexico and abroad, with the knowledge and care of a firm that treats every client as a strategic partner.",
       cta1: "Our services",
       cta2: "Get in touch"
     },
     home: {
       aboutEyebrow: "Who we are",
       aboutTitle: "A Mexican firm built on experience and trust",
-      aboutBody: "We are a Mexican firm of public accountants and independent professionals, founded on our partners' vision of offering clients the knowledge and experience gained over more than 25 years serving public and private, national and international companies. We provide regulatory compliance services in accounting and tax matters, audits, attestation engagements and internal control work. Our goal is to guarantee our clients' satisfaction through the quality and timeliness of our services.",
+      aboutBody: "We are a Mexican firm of public accountants and independent professionals, founded on our partners' vision of offering clients the knowledge and experience gained over more than 30 years serving public and private, national and international companies. We provide audit services, regulatory compliance in accounting and tax matters, attestation engagements and reviews of internal control structures. Our goal is to guarantee our clients' satisfaction through the quality and timeliness of our services.",
       aboutCta: "More about us",
       pillarsEyebrow: "What drives us",
       pillarsTitle: "Mission, vision and values",
@@ -57,15 +57,15 @@ const I18N = {
     aboutPage: {
       eyebrow: "About Basher",
       title: "Who we are",
-      lede: "A Mexican firm of public accountants and independent professionals, built on more than 25 years of experience."
+      lede: "A Mexican firm of public accountants and independent professionals, built on more than 30 years of experience."
     },
     who: {
       eyebrow: "Who we are",
       title: "Knowledge and experience you can rely on",
-      body: "We are a Mexican firm of public accountants and independent professionals, founded on our partners' vision of offering clients the knowledge and experience gained over more than 25 years serving public and private, national and international companies. We provide regulatory compliance services in accounting and tax matters, audits, attestation engagements and internal control work. Our goal is to guarantee our clients' satisfaction through the quality and timeliness of our services.",
-      stat1n: "25+", stat1s: "Years of experience",
-      stat2n: "7", stat2s: "Industries served",
-      stat3n: "19+", stat3s: "Clients supported"
+      body: "We are a Mexican firm of public accountants and independent professionals, founded on our partners' vision of offering clients the knowledge and experience gained over more than 30 years serving public and private, national and international companies. We provide audit services, regulatory compliance in accounting and tax matters, attestation engagements and reviews of internal control structures. Our goal is to guarantee our clients' satisfaction through the quality and timeliness of our services.",
+      tagline: "Basher, passion for what we do…",
+      stat1n: "30+", stat1s: "Years of experience",
+      stat2n: "7", stat2s: "Industries served"
     },
     industries: {
       eyebrow: "Sector experience",
@@ -92,7 +92,7 @@ const I18N = {
         ],
         exp: [
           "Partner Lead of the Audit &amp; Advisory practice.",
-          "More than 25 years of experience as a consultant, serving Mexican and international public and private companies.",
+          "More than 30 years of experience as a consultant, serving Mexican and international public and private companies.",
           "Instructor in accounting standards and university professor.",
           "Extensive experience in Financial Reporting Standards (NIF), International Financial Reporting Standards (IFRS) and U.S. Generally Accepted Accounting Principles (US GAAP).",
           "More than 20 years collaborating with an international (Big Four) firm."
@@ -103,7 +103,7 @@ const I18N = {
       eyebrow: "Our added value",
       title: "Our added value",
       items: [
-        { title: "25+ years of experience", body: "More than two decades supporting Mexican and international companies with specialized, senior-level attention." },
+        { title: "30+ years of experience", body: "More than three decades supporting Mexican and international companies with specialized, senior-level attention." },
         { title: "Technology-driven", body: "We use technology to streamline compliance monitoring and give our clients reliable, timely information." },
         { title: "Constant communication", body: "We maintain an ongoing dialogue with our clients throughout every engagement, not only at deadlines." },
         { title: "Timely delivery", body: "We are committed to delivering our work on time, every time, so our clients can plan with confidence." }
@@ -214,15 +214,15 @@ const I18N = {
     /* ---------- HOME ---------- */
     hero: {
       eyebrow: "Basurto Herrera Consultores, S.C.",
-      title: "Experiencia en auditoría y cumplimiento contable y fiscal para construir una relación de confianza.",
-      lede: "Más de 25 años sirviendo a empresas públicas y privadas en México y en el extranjero, con el conocimiento y el cuidado de una firma que trata a cada cliente como un socio de largo plazo.",
+      title: "Experiencia en auditoría y cumplimiento contable y fiscal.",
+      lede: "Más de 30 años sirviendo a empresas públicas y privadas en México y en el extranjero, con el conocimiento y el cuidado de una firma que trata a cada cliente como un socio estratégico.",
       cta1: "Nuestros servicios",
       cta2: "Contáctanos"
     },
     home: {
       aboutEyebrow: "Quiénes somos",
       aboutTitle: "Una firma mexicana construida sobre experiencia y confianza",
-      aboutBody: "Somos una firma mexicana de contadores públicos y profesionales independientes, que nació con la visión de los socios fundadores de ofrecer a nuestros clientes los conocimientos y experiencia adquiridos a lo largo de más de 25 años de servir a compañías públicas y privadas, nacionales e internacionales. Ofrecemos servicios de cumplimiento regulatorio en materia contable y fiscal, auditorías, trabajos de atestiguamiento y de control interno. Nuestro objetivo es garantizar la satisfacción de nuestros clientes a través de la calidad y oportunidad de nuestros servicios.",
+      aboutBody: "Somos una firma mexicana de contadores públicos y profesionales independientes, que nació con la visión de los socios fundadores de ofrecer a nuestros clientes los conocimientos y experiencia adquiridos a lo largo de más de 30 años de servir a compañías públicas y privadas, nacionales e internacionales. Ofrecemos servicios de auditoría, cumplimiento regulatorio en materia contable y fiscal, trabajos de atestiguamiento y revisiones de estructuras de control interno. Nuestro objetivo es garantizar la satisfacción de nuestros clientes a través de la calidad y oportunidad de nuestros servicios.",
       aboutCta: "Más sobre nosotros",
       pillarsEyebrow: "Lo que nos mueve",
       pillarsTitle: "Misión, visión y valores",
@@ -253,15 +253,15 @@ const I18N = {
     aboutPage: {
       eyebrow: "Sobre Basher",
       title: "Quiénes somos",
-      lede: "Una firma mexicana de contadores públicos y profesionistas independientes, con más de 25 años de experiencia."
+      lede: "Una firma mexicana de contadores públicos y profesionistas independientes, con más de 30 años de experiencia."
     },
     who: {
       eyebrow: "Quiénes somos",
       title: "Conocimiento y experiencia en los que puedes confiar",
-      body: "Somos una firma mexicana de contadores públicos y profesionales independientes, que nació con la visión de los socios fundadores de ofrecer a nuestros clientes los conocimientos y experiencia adquiridos a lo largo de más de 25 años de servir a compañías públicas y privadas, nacionales e internacionales. Ofrecemos servicios de cumplimiento regulatorio en materia contable y fiscal, auditorías, trabajos de atestiguamiento y de control interno. Nuestro objetivo es garantizar la satisfacción de nuestros clientes a través de la calidad y oportunidad de nuestros servicios.",
-      stat1n: "25+", stat1s: "Años de experiencia",
-      stat2n: "7", stat2s: "Industrias atendidas",
-      stat3n: "19+", stat3s: "Clientes atendidos"
+      body: "Somos una firma mexicana de contadores públicos y profesionales independientes, que nació con la visión de los socios fundadores de ofrecer a nuestros clientes los conocimientos y experiencia adquiridos a lo largo de más de 30 años de servir a compañías públicas y privadas, nacionales e internacionales. Ofrecemos servicios de auditoría, cumplimiento regulatorio en materia contable y fiscal, trabajos de atestiguamiento y revisiones de estructuras de control interno. Nuestro objetivo es garantizar la satisfacción de nuestros clientes a través de la calidad y oportunidad de nuestros servicios.",
+      tagline: "Basher, pasión por lo que hacemos…",
+      stat1n: "30+", stat1s: "Años de experiencia",
+      stat2n: "7", stat2s: "Industrias atendidas"
     },
     industries: {
       eyebrow: "Experiencia sectorial",
@@ -288,7 +288,7 @@ const I18N = {
         ],
         exp: [
           "Socio Líder del área de Auditoría y Asesoría.",
-          "Más de 25 años de experiencia como consultor, atendiendo a compañías internacionales y mexicanas, públicas y privadas.",
+          "Más de 30 años de experiencia como consultor, atendiendo a compañías internacionales y mexicanas, públicas y privadas.",
           "Instructor de normatividad contable y catedrático universitario.",
           "Amplia experiencia en Normas de Información Financiera (NIF), Normas Internacionales de Información Financiera (NIIF) y Principios de Contabilidad Generalmente Aceptados en Estados Unidos (US GAAP).",
           "Más de 20 años colaborando para una firma internacional (Big Four)."
@@ -299,7 +299,7 @@ const I18N = {
       eyebrow: "Nuestro valor agregado",
       title: "Nuestro valor agregado",
       items: [
-        { title: "Más de 25 años de experiencia", body: "Más de dos décadas apoyando a empresas mexicanas e internacionales con atención especializada de alto nivel." },
+        { title: "Más de 30 años de experiencia", body: "Más de tres décadas apoyando a empresas mexicanas e internacionales con atención especializada de alto nivel." },
         { title: "Uso de tecnología", body: "Utilizamos tecnología para agilizar el monitoreo del cumplimiento y brindar a nuestros clientes información confiable y oportuna." },
         { title: "Comunicación constante", body: "Mantenemos un diálogo constante con nuestros clientes durante todo el proyecto, no solo en las fechas límite." },
         { title: "Entrega oportuna", body: "Nos comprometemos a entregar nuestro trabajo a tiempo, siempre, para que nuestros clientes puedan planear con confianza." }
