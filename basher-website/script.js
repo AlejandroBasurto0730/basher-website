@@ -4,11 +4,11 @@
 
 const I18N = {
   en: {
-    nav: { home:"Home", about:"About Us", services:"Services", clients:"Clients", contact:"Contact" },
+    nav: { home:"Home", about:"About Us", services:"Services", contact:"Contact" },
     footer: {
       tagline: "Passion for what we do…",
       office: "Office",
-      addressLine: "Calle Hamburgo 213, Piso 11, Oficina 905<br>Col. Juárez, Alcaldía Cuauhtémoc<br>C.P. 06600 — Mexico City",
+      addressLine: "Paseo de la Reforma 342, Piso 26<br>Col. Juárez, Alc. Cuauhtémoc<br>C.P. 06600 — Mexico City",
       contact: "Contact",
       contactBlock: "Rodolfo Basurto<br><a href=\"mailto:rbasurto@basher.mx\">rbasurto@basher.mx</a><br>+52 55 3222 5122<br><a href=\"mailto:contacto@basher.mx\">contacto@basher.mx</a>",
       site: "Site",
@@ -18,28 +18,24 @@ const I18N = {
     /* ---------- HOME ---------- */
     hero: {
       eyebrow: "Basurto Herrera Consultores, S.C.",
-      title: "Audit experience and accounting and tax compliance.",
-      lede: "More than 30 years serving public and private companies in Mexico and abroad, with the knowledge and care of a firm that treats every client as a strategic partner.",
+      title: "Technical rigor and personalized service.",
+      lede: "Accounting, tax and audit services with direct involvement from the lead partner.",
       cta1: "Our services",
       cta2: "Get in touch"
     },
     home: {
       aboutEyebrow: "Who we are",
       aboutTitle: "A Mexican firm built on experience and trust",
-      aboutBody: "We are a Mexican firm of public accountants and independent professionals, founded on our partners' vision of offering clients the knowledge and experience gained over more than 30 years serving public and private, national and international companies. We provide audit services, regulatory compliance in accounting and tax matters, attestation engagements and reviews of internal control structures. Our goal is to guarantee our clients' satisfaction through the quality and timeliness of our services.",
+      aboutBody: "We are a Mexican firm of public accountants and independent professionals, founded on the vision of our founding partner to offer clients the knowledge and experience gained over more than 30 years of service to public and private, national and international companies.",
       aboutCta: "More about us",
       pillarsEyebrow: "What drives us",
       pillarsTitle: "Mission, vision and values",
       servicesEyebrow: "What we do",
-      servicesTitle: "Services built around your compliance and growth",
-      servicesLede: "From statutory audits to day-to-day accounting and tax matters, our team covers the full spectrum of financial assurance and advisory work.",
+      servicesTitle: "Services",
+      servicesLede: "Audit, accounting and tax compliance, and accounting advisory services, with direct involvement from the lead partner.",
       servicesCta: "View all services",
-      industriesEyebrow: "Sector experience",
-      industriesTitle: "Our experience in the industry",
-      clientsEyebrow: "Trusted by",
-      clientsTitle: "Some of our clients",
-      clientsLede: "We are proud to support national and international organizations across a wide range of industries.",
-      clientsCta: "See all clients",
+      industriesEyebrow: "Our experience",
+      industriesTitle: "Sector experience",
       ctaTitle: "Let's build value together.",
       ctaBody: "Tell us about your company and we'll show you how Basher can support your compliance and growth.",
       ctaButton: "Contact our team"
@@ -62,16 +58,16 @@ const I18N = {
     who: {
       eyebrow: "Who we are",
       title: "Knowledge and experience you can rely on",
-      body: "We are a Mexican firm of public accountants and independent professionals, founded on our partners' vision of offering clients the knowledge and experience gained over more than 30 years serving public and private, national and international companies. We provide audit services, regulatory compliance in accounting and tax matters, attestation engagements and reviews of internal control structures. Our goal is to guarantee our clients' satisfaction through the quality and timeliness of our services.",
+      body: "We are a Mexican firm of public accountants and independent professionals, founded on the vision of our founding partner to offer clients the knowledge and experience gained over more than 30 years of service to public and private, national and international companies.",
       tagline: "Basher, passion for what we do…",
       stat1n: "30+", stat1s: "Years of experience",
       stat2n: "7", stat2s: "Industries served"
     },
     industries: {
-      eyebrow: "Sector experience",
-      title: "Our experience in the industry",
-      body: "Over the years we have built deep, practical experience across a diverse set of sectors, allowing us to bring relevant, industry-aware insight to every engagement.",
-      tags: ["Manufacturing","Services","Automotive","Chemical","Energy","Pharmaceutical","Financial"]
+      eyebrow: "Our experience",
+      title: "Sector experience",
+      body: "Our experience has allowed us to specialize across several sectors of the economy, bringing added value to the services we provide.",
+      tags: ["Consumer sector","Industrial sector","Services sector","Financial services sector"]
     },
     partners: {
       eyebrow: "Our team",
@@ -99,16 +95,6 @@ const I18N = {
         ]
       }
     },
-    valueAdd: {
-      eyebrow: "Our added value",
-      title: "Our added value",
-      items: [
-        { title: "30+ years of experience", body: "More than three decades supporting Mexican and international companies with specialized, senior-level attention." },
-        { title: "Technology-driven", body: "We use technology to streamline compliance monitoring and give our clients reliable, timely information." },
-        { title: "Constant communication", body: "We maintain an ongoing dialogue with our clients throughout every engagement, not only at deadlines." },
-        { title: "Timely delivery", body: "We are committed to delivering our work on time, every time, so our clients can plan with confidence." }
-      ]
-    },
     aboutCta: {
       title: "Ready to work with a partner who knows your industry?",
       body: "Reach out and let's talk about how Basher can support your team.",
@@ -119,58 +105,48 @@ const I18N = {
     servicesPage: {
       eyebrow: "What we do",
       title: "Our services",
-      lede: "Regulatory compliance, assurance and advisory services designed to build value and trust with every engagement."
+      lede: "Audit, accounting and tax compliance, and accounting advisory services, with direct involvement from the lead partner."
     },
     svc: {
-      auditoriaTitle: "Audit &amp; Attestation Services",
+      auditoriaTitle: "Audit",
+      auditoriaIntro: "We follow international standards to carry out the audit process, supported by technology tools that let us issue reliable audit reports for the benefit of our clients.",
       auditoriaChecklist: [
         "Financial statement audits",
+        "Audits for tax purposes",
         "Special-purpose audits",
-        "Accounting expert testimony (peritaje contable)",
         "Statutory auditor's report (dictamen de comisario)"
       ],
 
-      controlInternoTitle: "Internal Control",
-      controlInterno: [
-        "Assessment of internal control structure design",
-        "Review of internal control operating effectiveness",
-        "Support restructuring internal control processes",
-        "Design of internal control structure based on COSO"
-      ],
-
-      contablesTitle: "Accounting Services",
-      contables: [
-        "Diagnosis of local or international accounting compliance",
+      cumplimientoTitle: "Accounting &amp; Tax Compliance",
+      cumplimientoIntro: "We help our clients meet their accounting and tax regulatory obligations, ensuring accuracy and timeliness in filing those obligations.",
+      cumplimientoContableLabel: "Accounting",
+      cumplimientoContable: [
         "General accounting",
-        "Preparation and review of consolidation packages",
-        "Preparation of financial statements under NIF, IFRS or US GAAP",
-        "Support implementing accounting standards (NIF, IFRS or US GAAP)",
+        "Review of consolidation packages",
+        "Preparation of annual financial statements",
         "Accounting training"
       ],
-
-      fiscalesTitle: "Tax Services",
-      fiscales: [
-        "Monthly and annual tax filings (income tax and VAT)",
+      cumplimientoFiscalLabel: "Tax",
+      cumplimientoFiscal: [
+        "Monthly and annual tax calculations",
         "Transfer pricing studies",
         "Tax audit report (dictamen fiscal)"
+      ],
+
+      consultoriaTitle: "Accounting Advisory",
+      consultoriaIntro: "Our accounting advisory services bring a strategic perspective to our clients, strengthening their risk-analysis processes for decision-making.",
+      consultoria: [
+        "Diagnosis of local and international accounting regulatory compliance",
+        "Support implementing specific accounting standards (NIF, IFRS or US GAAP)",
+        "Assessment of internal control structure design",
+        "Review of internal control operating effectiveness",
+        "Support restructuring internal control processes"
       ]
     },
     servicesCta: {
       title: "Not sure which service you need?",
       body: "Tell us about your company's situation and we'll help you find the right scope of work.",
       button: "Talk to us"
-    },
-
-    /* ---------- CLIENTS ---------- */
-    clientsPage: {
-      eyebrow: "Trusted by",
-      title: "Some of our clients",
-      lede: "We are proud to support national and international organizations across pharmaceutical, real estate, automotive and industrial, healthcare, insurance, retail, food services and technology sectors, among others."
-    },
-    clientsCta: {
-      title: "Join the companies that trust Basher.",
-      body: "Let's talk about how we can support your compliance, assurance and advisory needs.",
-      button: "Start a conversation"
     },
 
     /* ---------- CONTACT ---------- */
@@ -182,7 +158,7 @@ const I18N = {
     contact: {
       officeTitle: "Office location",
       officeCity: "Mexico City",
-      officeAddress: "Calle Hamburgo 213, Piso 11, Oficina 905<br>Col. Juárez, Alcaldía Cuauhtémoc<br>C.P. 06600<br>Ciudad de México",
+      officeAddress: "Paseo de la Reforma 342, Piso 26<br>Col. Juárez, Alc. Cuauhtémoc<br>C.P. 06600<br>Ciudad de México",
       infoTitle: "Contact information",
       infoName: "Rodolfo Basurto",
       formTitle: "Send us a message",
@@ -200,11 +176,11 @@ const I18N = {
   },
 
   es: {
-    nav: { home:"Inicio", about:"Nosotros", services:"Servicios", clients:"Clientes", contact:"Contacto" },
+    nav: { home:"Inicio", about:"Nosotros", services:"Servicios", contact:"Contacto" },
     footer: {
       tagline: "Pasión por lo que hacemos…",
       office: "Oficina",
-      addressLine: "Calle Hamburgo 213, Piso 11, Oficina 905<br>Col. Juárez, Alcaldía Cuauhtémoc<br>C.P. 06600 — Ciudad de México",
+      addressLine: "Paseo de la Reforma 342, Piso 26<br>Col. Juárez, Alc. Cuauhtémoc<br>C.P. 06600 — Ciudad de México",
       contact: "Contacto",
       contactBlock: "Rodolfo Basurto<br><a href=\"mailto:rbasurto@basher.mx\">rbasurto@basher.mx</a><br>+52 55 3222 5122<br><a href=\"mailto:contacto@basher.mx\">contacto@basher.mx</a>",
       site: "Sitio",
@@ -214,28 +190,24 @@ const I18N = {
     /* ---------- HOME ---------- */
     hero: {
       eyebrow: "Basurto Herrera Consultores, S.C.",
-      title: "Experiencia en auditoría y cumplimiento contable y fiscal.",
-      lede: "Más de 30 años sirviendo a empresas públicas y privadas en México y en el extranjero, con el conocimiento y el cuidado de una firma que trata a cada cliente como un socio estratégico.",
+      title: "Rigor técnico y servicio personalizado.",
+      lede: "Servicios contables, fiscales y de auditoría con participación directa del socio líder.",
       cta1: "Nuestros servicios",
       cta2: "Contáctanos"
     },
     home: {
       aboutEyebrow: "Quiénes somos",
       aboutTitle: "Una firma mexicana construida sobre experiencia y confianza",
-      aboutBody: "Somos una firma mexicana de contadores públicos y profesionales independientes, que nació con la visión de los socios fundadores de ofrecer a nuestros clientes los conocimientos y experiencia adquiridos a lo largo de más de 30 años de servir a compañías públicas y privadas, nacionales e internacionales. Ofrecemos servicios de auditoría, cumplimiento regulatorio en materia contable y fiscal, trabajos de atestiguamiento y revisiones de estructuras de control interno. Nuestro objetivo es garantizar la satisfacción de nuestros clientes a través de la calidad y oportunidad de nuestros servicios.",
+      aboutBody: "Somos una firma mexicana de contadores públicos y profesionistas independientes, que nació con la visión del socio fundador de ofrecer a nuestros clientes sus conocimientos y experiencia adquiridos a lo largo de más de 30 años de servicio a empresas públicas y privadas, nacionales e internacionales.",
       aboutCta: "Más sobre nosotros",
       pillarsEyebrow: "Lo que nos mueve",
       pillarsTitle: "Misión, visión y valores",
       servicesEyebrow: "Lo que hacemos",
-      servicesTitle: "Servicios diseñados para tu cumplimiento y crecimiento",
-      servicesLede: "Desde auditorías estatutarias hasta contabilidad y materia fiscal del día a día, nuestro equipo cubre todo el espectro de aseguramiento financiero y servicios de asesoría.",
+      servicesTitle: "Servicios",
+      servicesLede: "Auditoría, cumplimiento contable y fiscal, y consultoría contable, con la participación directa del socio líder.",
       servicesCta: "Ver todos los servicios",
-      industriesEyebrow: "Experiencia sectorial",
-      industriesTitle: "Nuestra experiencia en la industria",
-      clientsEyebrow: "Confían en nosotros",
-      clientsTitle: "Algunos de nuestros clientes",
-      clientsLede: "Nos enorgullece apoyar a organizaciones nacionales e internacionales en una amplia variedad de industrias.",
-      clientsCta: "Ver todos los clientes",
+      industriesEyebrow: "Nuestra experiencia",
+      industriesTitle: "Experiencia sectorial",
       ctaTitle: "Construyamos valor juntos.",
       ctaBody: "Cuéntanos sobre tu empresa y te mostraremos cómo Basher puede apoyar tu cumplimiento y crecimiento.",
       ctaButton: "Contacta a nuestro equipo"
@@ -258,16 +230,16 @@ const I18N = {
     who: {
       eyebrow: "Quiénes somos",
       title: "Conocimiento y experiencia en los que puedes confiar",
-      body: "Somos una firma mexicana de contadores públicos y profesionales independientes, que nació con la visión de los socios fundadores de ofrecer a nuestros clientes los conocimientos y experiencia adquiridos a lo largo de más de 30 años de servir a compañías públicas y privadas, nacionales e internacionales. Ofrecemos servicios de auditoría, cumplimiento regulatorio en materia contable y fiscal, trabajos de atestiguamiento y revisiones de estructuras de control interno. Nuestro objetivo es garantizar la satisfacción de nuestros clientes a través de la calidad y oportunidad de nuestros servicios.",
+      body: "Somos una firma mexicana de contadores públicos y profesionistas independientes, que nació con la visión del socio fundador de ofrecer a nuestros clientes sus conocimientos y experiencia adquiridos a lo largo de más de 30 años de servicio a empresas públicas y privadas, nacionales e internacionales.",
       tagline: "Basher, pasión por lo que hacemos…",
       stat1n: "30+", stat1s: "Años de experiencia",
       stat2n: "7", stat2s: "Industrias atendidas"
     },
     industries: {
-      eyebrow: "Experiencia sectorial",
-      title: "Nuestra experiencia en la industria",
-      body: "A lo largo de los años hemos construido experiencia profunda y práctica en diversos sectores, lo que nos permite aportar una perspectiva relevante y especializada en cada proyecto.",
-      tags: ["Manufactura","Servicios","Automotriz","Química","Energía","Farmacéutica","Financiera"]
+      eyebrow: "Nuestra experiencia",
+      title: "Experiencia sectorial",
+      body: "Nuestra experiencia nos ha permitido especializarnos en diversos sectores de nuestra economía, lo que aporta valor a la prestación de nuestros servicios.",
+      tags: ["Sector de consumo","Sector industrial","Sector de servicios","Sector de servicios financieros"]
     },
     partners: {
       eyebrow: "Nuestro equipo",
@@ -295,16 +267,6 @@ const I18N = {
         ]
       }
     },
-    valueAdd: {
-      eyebrow: "Nuestro valor agregado",
-      title: "Nuestro valor agregado",
-      items: [
-        { title: "Más de 30 años de experiencia", body: "Más de tres décadas apoyando a empresas mexicanas e internacionales con atención especializada de alto nivel." },
-        { title: "Uso de tecnología", body: "Utilizamos tecnología para agilizar el monitoreo del cumplimiento y brindar a nuestros clientes información confiable y oportuna." },
-        { title: "Comunicación constante", body: "Mantenemos un diálogo constante con nuestros clientes durante todo el proyecto, no solo en las fechas límite." },
-        { title: "Entrega oportuna", body: "Nos comprometemos a entregar nuestro trabajo a tiempo, siempre, para que nuestros clientes puedan planear con confianza." }
-      ]
-    },
     aboutCta: {
       title: "¿Listo para trabajar con un socio que conoce tu industria?",
       body: "Contáctanos y hablemos sobre cómo Basher puede apoyar a tu equipo.",
@@ -315,58 +277,48 @@ const I18N = {
     servicesPage: {
       eyebrow: "Lo que hacemos",
       title: "Nuestros servicios",
-      lede: "Servicios de cumplimiento regulatorio, aseguramiento y asesoría diseñados para generar valor y confianza en cada proyecto."
+      lede: "Auditoría, cumplimiento contable y fiscal, y consultoría contable, con la participación directa del socio líder."
     },
     svc: {
-      auditoriaTitle: "Auditorías y servicios de atestiguamiento",
+      auditoriaTitle: "Auditoría",
+      auditoriaIntro: "Nos apegamos a la normatividad internacional para llevar a cabo el proceso de auditoría, apoyándonos en herramientas tecnológicas que nos permiten emitir informes de auditoría confiables en beneficio de nuestros clientes.",
       auditoriaChecklist: [
         "Auditorías de estados financieros",
-        "Auditorías de propósito específico",
-        "Peritaje contable",
-        "Dictamen de comisario"
+        "Auditorías para efectos fiscales",
+        "Auditorías para propósitos específicos",
+        "Dictamen de Comisario"
       ],
 
-      controlInternoTitle: "Control interno",
-      controlInterno: [
-        "Evaluación del diseño de la estructura de control interno",
-        "Revisión de la eficacia operativa del control interno",
-        "Apoyo en la reestructura de procesos de control interno",
-        "Diseño de la estructura de control interno basado en COSO"
-      ],
-
-      contablesTitle: "Servicios contables",
-      contables: [
-        "Diagnóstico sobre el cumplimiento contable, local o internacional",
+      cumplimientoTitle: "Cumplimiento contable y fiscal",
+      cumplimientoIntro: "Apoyamos a nuestros clientes a cumplir con sus obligaciones normativas, tanto contables como fiscales, garantizando la exactitud y oportunidad en la presentación de dichas obligaciones.",
+      cumplimientoContableLabel: "Contable",
+      cumplimientoContable: [
         "Contabilidad general",
-        "Elaboración y revisión de paquetes de consolidación",
-        "Elaboración de estados financieros bajo NIF, NIIF o US GAAP",
-        "Apoyo en la implementación de normas contables (NIF, NIIF o US GAAP)",
+        "Revisión de paquetes de consolidación",
+        "Elaboración de estados financieros anuales",
         "Capacitación en materia contable"
       ],
-
-      fiscalesTitle: "Servicios fiscales",
-      fiscales: [
-        "Impuestos mensuales y anuales (ISR e IVA)",
+      cumplimientoFiscalLabel: "Fiscal",
+      cumplimientoFiscal: [
+        "Cálculo de impuestos mensuales y anuales",
         "Estudios de precios de transferencia",
         "Dictamen fiscal"
+      ],
+
+      consultoriaTitle: "Consultoría contable",
+      consultoriaIntro: "Nuestros servicios de consultoría contable aportan una visión estratégica a nuestros clientes para que fortalezcan sus procesos de análisis de riesgos para la toma de decisiones.",
+      consultoria: [
+        "Diagnóstico sobre cumplimiento normativo contable, local e internacional",
+        "Apoyo en la implementación de normas contables específicas (NIF, NIIF o US GAAP)",
+        "Evaluación del diseño de la estructura de control interno",
+        "Revisión de la eficacia operativa del control interno",
+        "Apoyo en la reestructura de procesos de control interno"
       ]
     },
     servicesCta: {
       title: "¿No estás seguro qué servicio necesitas?",
       body: "Cuéntanos sobre la situación de tu empresa y te ayudaremos a definir el alcance adecuado.",
       button: "Hablemos"
-    },
-
-    /* ---------- CLIENTS ---------- */
-    clientsPage: {
-      eyebrow: "Confían en nosotros",
-      title: "Algunos de nuestros clientes",
-      lede: "Nos enorgullece apoyar a organizaciones nacionales e internacionales en los sectores farmacéutico, inmobiliario, automotriz e industrial, salud, seguros, retail, servicios de alimentos y tecnología, entre otros."
-    },
-    clientsCta: {
-      title: "Súmate a las empresas que confían en Basher.",
-      body: "Hablemos sobre cómo podemos apoyar tus necesidades de cumplimiento, aseguramiento y asesoría.",
-      button: "Iniciar una conversación"
     },
 
     /* ---------- CONTACT ---------- */
@@ -378,7 +330,7 @@ const I18N = {
     contact: {
       officeTitle: "Ubicación de la oficina",
       officeCity: "Ciudad de México",
-      officeAddress: "Calle Hamburgo 213, Piso 11, Oficina 905<br>Col. Juárez, Alcaldía Cuauhtémoc<br>C.P. 06600<br>Ciudad de México",
+      officeAddress: "Paseo de la Reforma 342, Piso 26<br>Col. Juárez, Alc. Cuauhtémoc<br>C.P. 06600<br>Ciudad de México",
       infoTitle: "Información de contacto",
       infoName: "Rodolfo Basurto",
       formTitle: "Envíanos un mensaje",

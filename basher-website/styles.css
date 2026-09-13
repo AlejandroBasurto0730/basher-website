@@ -278,6 +278,17 @@ section{ padding: 88px 0; }
 }
 .pillar-card:hover .pillar-chips li{ background: var(--blue); color:#fff; }
 
+.values-list{ list-style:none; padding:0; margin:0 0 18px; }
+.values-list li{
+  position:relative; padding-left: 22px; margin-bottom: 8px;
+  color: var(--ink-soft); font-weight:600; font-size:.92rem; text-align:left;
+}
+.values-list li::before{
+  content:""; position:absolute; left:0; top:.5em; width:8px; height:8px;
+  background: var(--blue);
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
 /* Scroll-reveal: fade + rise into view, staggered by column, as the
    section enters the viewport (see initScrollReveal in script.js). */
 .reveal{
