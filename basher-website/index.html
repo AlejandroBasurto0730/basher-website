@@ -8,7 +8,7 @@
 <link rel="icon" href="assets/logo-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Libre+Franklin:wght@600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -144,26 +144,72 @@
     <div class="reveal">
       <div class="eyebrow" data-i18n="home.industriesEyebrow">Our experience</div>
       <h2 data-i18n="home.industriesTitle">Sector experience</h2>
-      <div class="industry-ticker">
-        <div class="ticker-track">
-          <span class="ticker-item" data-i18n="industries.tags.0">Consumer sector</span>
-          <span class="ticker-dot">•</span>
-          <span class="ticker-item" data-i18n="industries.tags.1">Industrial sector</span>
-          <span class="ticker-dot">•</span>
-          <span class="ticker-item" data-i18n="industries.tags.2">Services sector</span>
-          <span class="ticker-dot">•</span>
-          <span class="ticker-item" data-i18n="industries.tags.3">Financial services sector</span>
-          <span class="ticker-dot">•</span>
-          <span class="ticker-item" data-i18n="industries.tags.0">Consumer sector</span>
-          <span class="ticker-dot">•</span>
-          <span class="ticker-item" data-i18n="industries.tags.1">Industrial sector</span>
-          <span class="ticker-dot">•</span>
-          <span class="ticker-item" data-i18n="industries.tags.2">Services sector</span>
-          <span class="ticker-dot">•</span>
-          <span class="ticker-item" data-i18n="industries.tags.3">Financial services sector</span>
-          <span class="ticker-dot">•</span>
+      <p style="color:var(--ink-soft);" data-i18n="industries.body">Our experience has allowed us to specialize across several sectors of the economy, bringing added value to the services we provide.</p>
+    </div>
+  </div>
+  <div class="container" style="margin-top:36px;">
+    <div class="services-list">
+
+      <div class="service-detail" id="sector-consumo">
+        <h3 class="service-detail-head reveal">
+          <button type="button" class="service-detail-toggle" aria-expanded="false" aria-controls="sector-consumo-panel">
+            <span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 8h12l-1 12H7L6 8z"/><path d="M9 8V6a3 3 0 016 0v2"/></svg></span>
+            <span class="service-detail-title" data-i18n="industries.tags.0">Consumer sector</span>
+            <span class="service-detail-chevron-wrap"><svg class="service-detail-chevron" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></span>
+          </button>
+        </h3>
+        <div class="service-detail-panel" id="sector-consumo-panel">
+          <div class="service-detail-panel-inner">
+            <p class="service-detail-body" data-i18n="industries.items.0">This sector produces and markets goods purchased by end consumers for personal or household use.</p>
+          </div>
         </div>
       </div>
+
+      <div class="service-detail" id="sector-industrial">
+        <h3 class="service-detail-head reveal">
+          <button type="button" class="service-detail-toggle" aria-expanded="false" aria-controls="sector-industrial-panel">
+            <span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21V11l6 4v-4l6 4V7l6 4v10H3z"/></svg></span>
+            <span class="service-detail-title" data-i18n="industries.tags.1">Industrial sector</span>
+            <span class="service-detail-chevron-wrap"><svg class="service-detail-chevron" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></span>
+          </button>
+        </h3>
+        <div class="service-detail-panel" id="sector-industrial-panel">
+          <div class="service-detail-panel-inner">
+            <p class="service-detail-body" data-i18n="industries.items.1">We understand the processes of transforming raw materials into manufactured or semi-finished products.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="service-detail" id="sector-servicios">
+        <h3 class="service-detail-head reveal">
+          <button type="button" class="service-detail-toggle" aria-expanded="false" aria-controls="sector-servicios-panel">
+            <span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 12a4 4 0 118 0 4 4 0 01-8 0z"/><path d="M3 21c1.5-4 4.5-6 9-6s7.5 2 9 6"/></svg></span>
+            <span class="service-detail-title" data-i18n="industries.tags.2">Services sector</span>
+            <span class="service-detail-chevron-wrap"><svg class="service-detail-chevron" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></span>
+          </button>
+        </h3>
+        <div class="service-detail-panel" id="sector-servicios-panel">
+          <div class="service-detail-panel-inner">
+            <p class="service-detail-body" data-i18n="industries.items.2">This important sector does not produce physical goods, but offers intangible products that meet consumers' basic needs.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="service-detail" id="sector-financiero">
+        <h3 class="service-detail-head reveal">
+          <button type="button" class="service-detail-toggle" aria-expanded="false" aria-controls="sector-financiero-panel">
+            <span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 10l9-6 9 6"/><path d="M5 10v9M10 10v9M14 10v9M19 10v9"/><path d="M3 19h18"/></svg></span>
+            <span class="service-detail-title" data-i18n="industries.tags.3">Financial services sector</span>
+            <span class="service-detail-chevron-wrap"><svg class="service-detail-chevron" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></span>
+          </button>
+        </h3>
+        <div class="service-detail-panel" id="sector-financiero-panel">
+          <div class="service-detail-panel-inner">
+            <p class="service-detail-body" data-i18n="industries.items.3">We support clients in the financial services sector and understand the importance of raising funds, managing risk and allocating resources.</p>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>

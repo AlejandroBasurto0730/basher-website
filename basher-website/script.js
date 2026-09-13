@@ -67,7 +67,23 @@ const I18N = {
       eyebrow: "Our experience",
       title: "Sector experience",
       body: "Our experience has allowed us to specialize across several sectors of the economy, bringing added value to the services we provide.",
-      tags: ["Consumer sector","Industrial sector","Services sector","Financial services sector"]
+      tags: ["Consumer sector","Industrial sector","Services sector","Financial services sector"],
+      items: [
+        "This sector produces and markets goods purchased by end consumers for personal or household use. It is one of the most dynamic sectors of the global economy, closely tied to consumers' purchasing power and consumption habits. We understand the business risks these companies face, and our experience lets us make valuable recommendations so leadership can manage them strategically.",
+        "We understand the processes of transforming raw materials into manufactured or semi-finished products, and how this sector integrates with other industries.",
+        "This important sector does not produce physical goods, but offers intangible products that meet consumers' basic needs — an area where we have extensive experience.",
+        "We support clients in the financial services sector and understand the importance of activities related to raising funds, managing risk and allocating resources among individuals, companies and government."
+      ]
+    },
+    careers: {
+      eyebrow: "Join Basher",
+      title: "Growing our talent",
+      lede: "At Basher you'll develop professional judgment working with clients and tackling real challenges, as part of a team that shares knowledge, recognizes achievements and solves problems together.",
+      items: [
+        { title: "We grow together", body: "We celebrate progress, offer support and share knowledge." },
+        { title: "We work with openness", body: "We speak with clarity, own our mistakes, act with respect and seek to understand others." },
+        { title: "We stand behind our work", body: "We seek to understand before proposing, and offer personalized, reliable attention." }
+      ]
     },
     partners: {
       eyebrow: "Our team",
@@ -239,7 +255,23 @@ const I18N = {
       eyebrow: "Nuestra experiencia",
       title: "Experiencia sectorial",
       body: "Nuestra experiencia nos ha permitido especializarnos en diversos sectores de nuestra economía, lo que aporta valor a la prestación de nuestros servicios.",
-      tags: ["Sector de consumo","Sector industrial","Sector de servicios","Sector de servicios financieros"]
+      tags: ["Sector de consumo","Sector industrial","Sector de servicios","Sector de servicios financieros"],
+      items: [
+        "Este sector produce y comercializa bienes adquiridos por los consumidores finales para su uso personal o doméstico. Representa uno de los sectores más dinámicos de la economía global y se caracteriza por estar directamente vinculado al poder adquisitivo y los hábitos de consumo de los clientes. Entendemos los riesgos de negocio a los que se enfrentan y nuestra experiencia nos permite hacer recomendaciones de valor para que la alta dirección los gestione estratégicamente.",
+        "Entendemos los procesos de transformación de materias primas en productos manufacturados o semielaborados y cómo este sector se integra en otras industrias.",
+        "Este importante sector, que no produce bienes materiales pero ofrece productos intangibles que satisfacen necesidades básicas de los consumidores, forma parte de nuestros segmentos de negocio en los que contamos con amplia experiencia.",
+        "Apoyamos a clientes del sector de servicios financieros y entendemos la importancia de las actividades relacionadas con la captación, gestión de riesgos y colocación de recursos entre personas, empresas y gobierno."
+      ]
+    },
+    careers: {
+      eyebrow: "Únete a Basher",
+      title: "Atracción de talento",
+      lede: "En Basher desarrollarás criterio profesional trabajando con clientes y enfrentando retos reales, dentro de un equipo que comparte conocimiento, reconoce los logros y resuelve los problemas en conjunto.",
+      items: [
+        { title: "Crecemos juntos", body: "Celebramos los avances, ofrecemos apoyo y compartimos conocimiento." },
+        { title: "Trabajamos con apertura", body: "Hablamos con claridad, reconocemos errores, actuamos con respeto y buscamos comprender a los demás." },
+        { title: "Respondemos por nuestro trabajo", body: "Entendemos antes de proponer y ofrecemos una atención personalizada y confiable." }
+      ]
     },
     partners: {
       eyebrow: "Nuestro equipo",
