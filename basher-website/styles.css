@@ -193,7 +193,9 @@ section{ padding: 88px 0; }
   background: var(--blue);
   clip-path: polygon(30% 0, 100% 0, 100% 65%, 65% 100%, 0 55%);
   opacity:.35;
+  z-index:0;
 }
+.page-hero > .container{ position:relative; z-index:1; }
 .page-hero .eyebrow{ color:#8fc0ea; }
 .page-hero h1{ color:#fff; font-size: clamp(1.8rem, 3.4vw, 2.6rem); max-width:640px; }
 .page-hero p{ color:#c2d3e2; max-width:560px; font-size:1.05rem; }
