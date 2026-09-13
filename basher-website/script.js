@@ -4,7 +4,7 @@
 
 const I18N = {
   en: {
-    nav: { home:"Home", about:"About Us", services:"Services", contact:"Contact" },
+    nav: { home:"Home", about:"About Us", services:"Services", careers:"Careers", contact:"Contact" },
     footer: {
       tagline: "Passion for what we do…",
       office: "Office",
@@ -84,6 +84,11 @@ const I18N = {
         { title: "We work with openness", body: "We speak with clarity, own our mistakes, act with respect and seek to understand others." },
         { title: "We stand behind our work", body: "We seek to understand before proposing, and offer personalized, reliable attention." }
       ]
+    },
+    careersCta: {
+      title: "Want to join Basher?",
+      body: "Tell us about your background and let's talk about the opportunities available.",
+      button: "Contact us"
     },
     partners: {
       eyebrow: "Our team",
@@ -192,7 +197,7 @@ const I18N = {
   },
 
   es: {
-    nav: { home:"Inicio", about:"Nosotros", services:"Servicios", contact:"Contacto" },
+    nav: { home:"Inicio", about:"Nosotros", services:"Servicios", careers:"Carreras", contact:"Contacto" },
     footer: {
       tagline: "Pasión por lo que hacemos…",
       office: "Oficina",
@@ -272,6 +277,11 @@ const I18N = {
         { title: "Trabajamos con apertura", body: "Hablamos con claridad, reconocemos errores, actuamos con respeto y buscamos comprender a los demás." },
         { title: "Respondemos por nuestro trabajo", body: "Entendemos antes de proponer y ofrecemos una atención personalizada y confiable." }
       ]
+    },
+    careersCta: {
+      title: "¿Quieres unirte a Basher?",
+      body: "Cuéntanos sobre tu perfil y hablemos de las oportunidades disponibles.",
+      button: "Contáctanos"
     },
     partners: {
       eyebrow: "Nuestro equipo",
