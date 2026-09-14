@@ -468,6 +468,21 @@ section{ padding: 88px 0; }
   border-bottom: 2px solid var(--blue); padding-bottom: 8px; margin-bottom: 14px;
 }
 .partner-cols .check-list li{ font-size:.92rem; }
+.partner-cols-accordion{ gap: 24px; align-items:start; }
+.partner-cols-accordion .service-detail{
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.partner-cols-accordion .service-detail-head{
+  font-family: inherit; font-size: inherit; font-weight: inherit;
+  letter-spacing: normal; text-transform: none; color: inherit;
+  border-bottom: none; padding-bottom: 0; margin: 0;
+}
+.partner-cols-accordion .service-detail-toggle{ padding: 16px 20px; gap: 14px; }
+.partner-cols-accordion .service-detail-panel-inner{ padding: 0 20px; }
+.partner-cols-accordion .service-detail-title{ font-size: 1rem; }
+.partner-cols-accordion .check-list{ margin: 0; }
 
 /* ------------------------------------------------------------
    Partner profile — a single partner's photo + bio, laid out with
