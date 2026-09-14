@@ -552,23 +552,6 @@ section{ padding: 88px 0; }
 }
 .service-block h3{ font-size:1.2rem; }
 
-.services-nav{
-  position: sticky; top: 78px; z-index: 40;
-  background:#fff; border-bottom:1px solid var(--line);
-  box-shadow: 0 2px 10px rgba(15,30,50,.04);
-}
-.services-nav-inner{
-  display:flex; gap: 6px; overflow-x:auto; padding: 12px 24px;
-  scrollbar-width: thin;
-}
-.services-nav-inner a{
-  flex: 0 0 auto;
-  font-size: .86rem; font-weight:600; color: var(--ink-soft);
-  padding: 9px 16px; border-radius: 999px; white-space:nowrap;
-  transition: background .15s ease, color .15s ease;
-}
-.services-nav-inner a:hover{ background: var(--blue-light); color: var(--blue); }
-
 .services-list{
   background:#fff; border:1px solid var(--line); border-radius: var(--radius);
   box-shadow: var(--shadow); overflow:hidden;
