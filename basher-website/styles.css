@@ -169,7 +169,7 @@ section{ padding: 88px 0; }
   position:absolute; inset:0;
   background: linear-gradient(100deg, rgba(15,44,71,.72) 0%, rgba(15,44,71,.62) 55%, rgba(15,44,71,.42) 100%);
 }
-.hero-content{ position:relative; z-index:2; padding: 50px 0; }
+.hero-content{ position:relative; z-index:2; padding-top: 50px; padding-bottom: 50px; }
 .hero-logo{ height: 44px; width:auto; margin-bottom: 20px; }
 .hero h1{
   color:#fff; font-size: clamp(1.9rem, 4vw, 3.1rem);
