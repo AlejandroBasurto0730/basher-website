@@ -18,7 +18,7 @@ const I18N = {
     /* ---------- HOME ---------- */
     hero: {
       eyebrow: "Basurto Herrera Consultores, S.C.",
-      title: "Technical rigor and personalized service.",
+      title: "Technical rigor and personalized service",
       lede: "Accounting, tax and audit services with direct involvement from the lead partner.",
       cta1: "Our services",
       cta2: "Get in touch"
@@ -53,15 +53,15 @@ const I18N = {
     aboutPage: {
       eyebrow: "About Basher",
       title: "Who we are",
-      lede: "A Mexican firm of public accountants and independent professionals, built on more than 30 years of experience."
+      lede: "A Mexican firm of public accountants and independent professionals."
     },
     who: {
       eyebrow: "Who we are",
-      title: "Knowledge and experience you can rely on",
+      title: "Knowledge and experience that build trust",
       body: "We are a Mexican firm of public accountants and independent professionals, founded on the vision of our founding partner to offer clients the knowledge and experience gained over more than 30 years of service to public and private, national and international companies.",
       tagline: "Basher, passion for what we do…",
       stat1n: "30+", stat1s: "Years of experience",
-      stat2n: "7", stat2s: "Industries served"
+      stat2n: "4", stat2s: "Industries served"
     },
     industries: {
       eyebrow: "Our experience",
@@ -69,7 +69,7 @@ const I18N = {
       body: "Our experience has allowed us to specialize across several sectors of the economy, bringing added value to the services we provide.",
       tags: ["Consumer sector","Industrial sector","Services sector","Financial services sector"],
       items: [
-        "This sector produces and markets goods purchased by end consumers for personal or household use. It is one of the most dynamic sectors of the global economy, closely tied to consumers' purchasing power and consumption habits. We understand the business risks these companies face, and our experience lets us make valuable recommendations so leadership can manage them strategically.",
+        "This sector produces and markets goods purchased by end consumers for personal or household use. It is one of the most dynamic sectors of the global economy, closely tied to consumers' purchasing power and consumption habits.<br><br>We understand the business risks these companies face, and our experience lets us make valuable recommendations so leadership can manage them strategically.",
         "We understand the processes of transforming raw materials into manufactured or semi-finished products, and how this sector integrates with other industries.",
         "This important sector does not produce physical goods, but offers intangible products that meet consumers' basic needs — an area where we have extensive experience.",
         "We support clients in the financial services sector and understand the importance of activities related to raising funds, managing risk and allocating resources among individuals, companies and government."
@@ -93,26 +93,25 @@ const I18N = {
     partners: {
       eyebrow: "Our team",
       title: "Meet our partner",
-      lede: "Rodolfo Basurto leads our practice, bringing the technical depth and hands-on attention our clients rely on.",
+      lede: "Rodolfo Basurto leads our firm, bringing the technical depth and hands-on attention our clients rely on.",
       eduTitle: "Education",
       expTitle: "Professional experience",
       rodolfo: {
         name: "C.P.C. and M.B.A. Rodolfo Basurto",
-        role: "Partner Lead, Audit &amp; Advisory",
+        role: "Managing Partner",
         edu: [
-          "Certified Public Accountant by the Mexican Institute of Public Accountants (CPC).",
-          "Public Accountant Registered with the General Tax Administration (CPR).",
-          "Master's in Administration and Finance.",
-          "Senior Management Program at IPADE.",
-          "Leadership Program at Georgetown University.",
-          "Member of the National College of Independent Professional Corporate Advisors."
+          "Certified Public Accountant by the Mexican Institute of Public Accountants (CPC)",
+          "Public Accountant Registered with the General Tax Administration (CPR)",
+          "Master's in Administration and Finance",
+          "Senior Management Program at IPADE",
+          "Leadership Program at Georgetown University",
+          "Member of the National College of Independent Professional Corporate Advisors"
         ],
         exp: [
-          "Partner Lead of the Audit &amp; Advisory practice.",
-          "More than 30 years of experience as a consultant, serving Mexican and international public and private companies.",
-          "Instructor in accounting standards and university professor.",
-          "Extensive experience in Financial Reporting Standards (NIF), International Financial Reporting Standards (IFRS) and U.S. Generally Accepted Accounting Principles (US GAAP).",
-          "More than 20 years collaborating with an international (Big Four) firm."
+          "More than 30 years of experience as a consultant, serving Mexican and international public and private companies",
+          "Instructor in accounting standards and university professor",
+          "Extensive experience in Financial Reporting Standards (NIF), International Financial Reporting Standards (IFRS) and U.S. Generally Accepted Accounting Principles (US GAAP)",
+          "More than 20 years collaborating with an international (Big Four) firm"
         ]
       }
     },
@@ -197,7 +196,7 @@ const I18N = {
   },
 
   es: {
-    nav: { home:"Inicio", about:"Nosotros", services:"Servicios", careers:"Carreras", contact:"Contacto" },
+    nav: { home:"Inicio", about:"Quiénes somos", services:"Servicios", careers:"Atracción de talento", contact:"Contacto" },
     footer: {
       tagline: "Pasión por lo que hacemos…",
       office: "Oficina",
@@ -211,7 +210,7 @@ const I18N = {
     /* ---------- HOME ---------- */
     hero: {
       eyebrow: "Basurto Herrera Consultores, S.C.",
-      title: "Rigor técnico y servicio personalizado.",
+      title: "Rigor técnico y servicio personalizado",
       lede: "Servicios contables, fiscales y de auditoría con participación directa del socio líder.",
       cta1: "Nuestros servicios",
       cta2: "Contáctanos"
@@ -246,15 +245,15 @@ const I18N = {
     aboutPage: {
       eyebrow: "Sobre Basher",
       title: "Quiénes somos",
-      lede: "Una firma mexicana de contadores públicos y profesionistas independientes, con más de 30 años de experiencia."
+      lede: "Una firma mexicana de contadores públicos y profesionistas independientes."
     },
     who: {
       eyebrow: "Quiénes somos",
-      title: "Conocimiento y experiencia en los que puedes confiar",
+      title: "Conocimiento y experiencia que generan confianza",
       body: "Somos una firma mexicana de contadores públicos y profesionistas independientes, que nació con la visión del socio fundador de ofrecer a nuestros clientes sus conocimientos y experiencia adquiridos a lo largo de más de 30 años de servicio a empresas públicas y privadas, nacionales e internacionales.",
       tagline: "Basher, pasión por lo que hacemos…",
       stat1n: "30+", stat1s: "Años de experiencia",
-      stat2n: "7", stat2s: "Industrias atendidas"
+      stat2n: "4", stat2s: "Industrias atendidas"
     },
     industries: {
       eyebrow: "Nuestra experiencia",
@@ -262,7 +261,7 @@ const I18N = {
       body: "Nuestra experiencia nos ha permitido especializarnos en diversos sectores de nuestra economía, lo que aporta valor a la prestación de nuestros servicios.",
       tags: ["Sector de consumo","Sector industrial","Sector de servicios","Sector de servicios financieros"],
       items: [
-        "Este sector produce y comercializa bienes adquiridos por los consumidores finales para su uso personal o doméstico. Representa uno de los sectores más dinámicos de la economía global y se caracteriza por estar directamente vinculado al poder adquisitivo y los hábitos de consumo de los clientes. Entendemos los riesgos de negocio a los que se enfrentan y nuestra experiencia nos permite hacer recomendaciones de valor para que la alta dirección los gestione estratégicamente.",
+        "Este sector produce y comercializa bienes adquiridos por los consumidores finales para su uso personal o doméstico. Representa uno de los sectores más dinámicos de la economía global y se caracteriza por estar directamente vinculado al poder adquisitivo y los hábitos de consumo de los clientes.<br><br>Entendemos los riesgos de negocio a los que se enfrentan y nuestra experiencia nos permite hacer recomendaciones de valor para que la alta dirección los gestione estratégicamente.",
         "Entendemos los procesos de transformación de materias primas en productos manufacturados o semielaborados y cómo este sector se integra en otras industrias.",
         "Este importante sector, que no produce bienes materiales pero ofrece productos intangibles que satisfacen necesidades básicas de los consumidores, forma parte de nuestros segmentos de negocio en los que contamos con amplia experiencia.",
         "Apoyamos a clientes del sector de servicios financieros y entendemos la importancia de las actividades relacionadas con la captación, gestión de riesgos y colocación de recursos entre personas, empresas y gobierno."
@@ -286,26 +285,25 @@ const I18N = {
     partners: {
       eyebrow: "Nuestro equipo",
       title: "Conoce a nuestro socio",
-      lede: "Rodolfo Basurto lidera nuestra práctica, aportando la profundidad técnica y la atención cercana en la que confían nuestros clientes.",
+      lede: "Rodolfo Basurto lidera nuestra firma, aportando la profundidad técnica y la atención cercana en la que confían nuestros clientes.",
       eduTitle: "Formación académica",
       expTitle: "Experiencia profesional",
       rodolfo: {
         name: "C.P.C. y M.B.A. Rodolfo Basurto",
-        role: "Socio Líder, Auditoría y Asesoría",
+        role: "Socio Director General",
         edu: [
-          "Contador Público Certificado por el Instituto Mexicano de Contadores Públicos (CPC).",
-          "Contador Público Registrado ante la Administración General Fiscal (CPR).",
-          "Maestría en Administración y Finanzas.",
-          "Programa de Alta Dirección de Empresas en el IPADE.",
-          "Programa de Liderazgo en Georgetown University.",
-          "Miembro del Colegio Nacional de Consejeros Profesionales Independientes de Empresas."
+          "Contador Público Certificado por el Instituto Mexicano de Contadores Públicos (CPC)",
+          "Contador Público Registrado ante la Administración General Fiscal (CPR)",
+          "Maestría en Administración y Finanzas",
+          "Programa de Alta Dirección de Empresas en el IPADE",
+          "Programa de Liderazgo en Georgetown University",
+          "Miembro del Colegio Nacional de Consejeros Profesionales Independientes de Empresas"
         ],
         exp: [
-          "Socio Líder del área de Auditoría y Asesoría.",
-          "Más de 30 años de experiencia como consultor, atendiendo a compañías internacionales y mexicanas, públicas y privadas.",
-          "Instructor de normatividad contable y catedrático universitario.",
-          "Amplia experiencia en Normas de Información Financiera (NIF), Normas Internacionales de Información Financiera (NIIF) y Principios de Contabilidad Generalmente Aceptados en Estados Unidos (US GAAP).",
-          "Más de 20 años colaborando para una firma internacional (Big Four)."
+          "Más de 30 años de experiencia como consultor, atendiendo a compañías internacionales y mexicanas, públicas y privadas",
+          "Instructor de normatividad contable y catedrático universitario",
+          "Amplia experiencia en Normas de Información Financiera (NIF), Normas Internacionales de Información Financiera (NIIF) y Principios de Contabilidad Generalmente Aceptados en Estados Unidos (US GAAP)",
+          "Más de 20 años colaborando para una firma internacional (Big Four)"
         ]
       }
     },
@@ -702,6 +700,28 @@ function initServiceAccordion(){
   }
 }
 
+// Industries banner: swaps the illustration to match whichever sector
+// accordion the visitor opens (index.html + about.html share this markup).
+function initIndustryIllustration(){
+  const illos = document.querySelectorAll(".sector-illustration");
+  if (!illos.length) return;
+  const SECTOR_BY_ID = {
+    "sector-consumo": "consumo",
+    "sector-industrial": "industrial",
+    "sector-servicios": "servicios",
+    "sector-financiero": "financiero"
+  };
+  document.querySelectorAll(".services-list .service-detail").forEach(section=>{
+    const key = SECTOR_BY_ID[section.id];
+    if (!key) return;
+    const toggle = section.querySelector(".service-detail-toggle");
+    if (!toggle) return;
+    toggle.addEventListener("click", ()=>{
+      illos.forEach(el => el.classList.toggle("is-active", el.dataset.sector === key));
+    });
+  });
+}
+
 function initScrollReveal(){
   const els = document.querySelectorAll(".reveal");
   if (!els.length) return;
@@ -729,5 +749,6 @@ document.addEventListener("DOMContentLoaded", ()=>{
   initHeroParallax();
   initNetworkMap();
   initServiceAccordion();
+  initIndustryIllustration();
   initScrollReveal();
 });

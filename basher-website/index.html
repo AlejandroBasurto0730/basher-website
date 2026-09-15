@@ -40,7 +40,7 @@
   <div class="container hero-content">
     <img src="assets/logo-wordmark-large.png" alt="Basher" class="hero-logo">
     <div class="eyebrow" style="color:#8fc0ea;" data-i18n="hero.eyebrow">Basurto Herrera Consultores, S.C.</div>
-    <h1 data-i18n="hero.title">Technical rigor and personalized service.</h1>
+    <h1 data-i18n="hero.title">Technical rigor and personalized service</h1>
     <p class="lede" data-i18n="hero.lede">Accounting, tax and audit services with direct involvement from the lead partner.</p>
     <div class="hero-actions">
       <a href="services.html" class="btn btn-primary" data-i18n="hero.cta1">Our services</a>
@@ -63,7 +63,7 @@
       <p data-i18n="home.aboutBody" style="color:var(--ink-soft);">We are a Mexican firm of public accountants and independent professionals, founded on the vision of our founding partner to offer clients the knowledge and experience gained over more than 30 years of service to public and private, national and international companies.</p>
       <div class="stat-row">
         <div class="stat"><b data-i18n="who.stat1n">30+</b><span data-i18n="who.stat1s">Years of experience</span></div>
-        <div class="stat"><b data-i18n="who.stat2n">7</b><span data-i18n="who.stat2s">Industries served</span></div>
+        <div class="stat"><b data-i18n="who.stat2n">4</b><span data-i18n="who.stat2s">Industries served</span></div>
       </div>
       <p style="margin-top:26px;"><a href="about.html" class="btn btn-ghost" data-i18n="home.aboutCta">More about us</a></p>
     </div>
@@ -136,10 +136,62 @@
 <section class="bg-fog">
   <div class="container industry-wrap">
     <div class="industry-media reveal">
-      <div class="industry-video">
-        <video autoplay muted loop playsinline poster="assets/industries-poster.jpg" aria-label="Industries served by Basher">
-          <source src="assets/industries-reel.mp4" type="video/mp4">
-        </video>
+      <div class="industry-illustration">
+        <svg class="sector-illustration is-active" data-sector="consumo" viewBox="0 0 400 300" role="img" aria-label="Consumer sector">
+          <rect width="400" height="300" fill="#0f2c47"/>
+          <circle cx="330" cy="55" r="140" fill="#144a86" opacity=".35"/>
+          <circle cx="88" cy="76" r="4" fill="#ffffff" opacity=".5"/>
+          <circle cx="112" cy="108" r="3" fill="#ffffff" opacity=".4"/>
+          <circle cx="304" cy="226" r="5" fill="#ffffff" opacity=".4"/>
+          <path d="M165,142 Q165,102 200,102 Q235,102 235,142" stroke="#ffffff" stroke-width="8" fill="none" stroke-linecap="round"/>
+          <rect x="145" y="142" width="110" height="100" rx="8" fill="#eaf2fa"/>
+          <rect x="145" y="178" width="110" height="15" fill="#1c5fa8"/>
+          <circle cx="256" cy="122" r="11" fill="#1c5fa8"/>
+          <circle cx="256" cy="122" r="3.5" fill="#0f2c47"/>
+        </svg>
+        <svg class="sector-illustration" data-sector="industrial" viewBox="0 0 400 300" role="img" aria-label="Industrial sector">
+          <rect width="400" height="300" fill="#0f2c47"/>
+          <circle cx="330" cy="55" r="140" fill="#144a86" opacity=".35"/>
+          <circle cx="146" cy="95" r="9" fill="#ffffff" opacity=".55"/>
+          <circle cx="132" cy="78" r="6" fill="#ffffff" opacity=".4"/>
+          <circle cx="226" cy="72" r="10" fill="#ffffff" opacity=".55"/>
+          <circle cx="240" cy="54" r="6" fill="#ffffff" opacity=".4"/>
+          <rect x="140" y="110" width="16" height="70" fill="#1c5fa8"/>
+          <rect x="220" y="88" width="16" height="92" fill="#1c5fa8"/>
+          <rect x="110" y="180" width="190" height="66" fill="#eaf2fa"/>
+          <path d="M110,180 L150,150 L180,180 L210,150 L240,180 L270,150 L300,180 Z" fill="#eaf2fa"/>
+          <rect x="130" y="200" width="20" height="24" fill="#0f2c47"/>
+          <rect x="168" y="200" width="20" height="24" fill="#0f2c47"/>
+          <rect x="206" y="200" width="20" height="24" fill="#0f2c47"/>
+          <rect x="244" y="200" width="20" height="24" fill="#0f2c47"/>
+        </svg>
+        <svg class="sector-illustration" data-sector="servicios" viewBox="0 0 400 300" role="img" aria-label="Services sector">
+          <rect width="400" height="300" fill="#0f2c47"/>
+          <circle cx="330" cy="55" r="140" fill="#144a86" opacity=".35"/>
+          <circle cx="92" cy="90" r="4" fill="#ffffff" opacity=".5"/>
+          <circle cx="304" cy="224" r="5" fill="#ffffff" opacity=".4"/>
+          <circle cx="150" cy="140" r="24" fill="#eaf2fa"/>
+          <path d="M108,224 Q108,176 150,176 Q192,176 192,224 Z" fill="#eaf2fa"/>
+          <circle cx="242" cy="140" r="24" fill="#1c5fa8"/>
+          <path d="M200,224 Q200,176 242,176 Q284,176 284,224 Z" fill="#1c5fa8"/>
+          <circle cx="200" cy="108" r="30" fill="#ffffff"/>
+          <path d="M188,109 L197,118 L214,98" stroke="#0f2c47" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <svg class="sector-illustration" data-sector="financiero" viewBox="0 0 400 300" role="img" aria-label="Financial services sector">
+          <rect width="400" height="300" fill="#0f2c47"/>
+          <circle cx="330" cy="55" r="140" fill="#144a86" opacity=".35"/>
+          <circle cx="90" cy="84" r="4" fill="#ffffff" opacity=".5"/>
+          <circle cx="110" cy="112" r="3" fill="#ffffff" opacity=".4"/>
+          <polygon points="200,92 262,142 138,142" fill="#eaf2fa"/>
+          <rect x="140" y="216" width="140" height="14" fill="#eaf2fa"/>
+          <rect x="150" y="142" width="14" height="74" fill="#ffffff"/>
+          <rect x="178" y="142" width="14" height="74" fill="#ffffff"/>
+          <rect x="206" y="142" width="14" height="74" fill="#ffffff"/>
+          <rect x="234" y="142" width="14" height="74" fill="#ffffff"/>
+          <rect x="270" y="196" width="16" height="20" fill="#1c5fa8"/>
+          <rect x="290" y="182" width="16" height="34" fill="#1c5fa8"/>
+          <rect x="310" y="164" width="16" height="52" fill="#1c5fa8"/>
+        </svg>
       </div>
     </div>
     <div class="reveal">
