@@ -93,7 +93,7 @@ const I18N = {
     partners: {
       eyebrow: "Our team",
       title: "Meet our partner",
-      lede: "Rodolfo Basurto leads our firm, bringing the technical depth and hands-on attention our clients rely on.",
+      lede: "Rodolfo Basurto leads our firm, bringing the technical depth and hands-on attention our clients rely on",
       eduTitle: "Education",
       expTitle: "Professional experience",
       rodolfo: {
@@ -285,7 +285,7 @@ const I18N = {
     partners: {
       eyebrow: "Nuestro equipo",
       title: "Conoce a nuestro socio",
-      lede: "Rodolfo Basurto lidera nuestra firma, aportando la profundidad técnica y la atención cercana en la que confían nuestros clientes.",
+      lede: "Rodolfo Basurto lidera nuestra firma, aportando la profundidad técnica y la atención cercana en la que confían nuestros clientes",
       eduTitle: "Formación académica",
       expTitle: "Experiencia profesional",
       rodolfo: {
