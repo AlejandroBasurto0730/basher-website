@@ -417,17 +417,15 @@ section{ padding: 88px 0; }
 .industry-media img{ border-radius: var(--radius); box-shadow: var(--shadow); }
 .industry-tags{ display:flex; flex-wrap:wrap; gap:10px; margin-top: 20px; }
 
-/* Industry illustration — swaps per sector as each accordion item opens */
+/* Industry illustration — single looping video covering all sectors */
 .industry-illustration{
   position:relative; overflow:hidden; border-radius: var(--radius); box-shadow: var(--shadow);
   aspect-ratio: 4 / 3.1; background: var(--navy); width:100%; min-width:0;
 }
-.sector-illustration{
+.industry-illustration-video{
   position:absolute; inset:0; width:100%; height:100%; display:block;
   object-fit: cover; object-position: center;
-  opacity:0; transition: opacity .5s ease;
 }
-.sector-illustration.is-active{ opacity:1; }
 
 /* Industry name ticker — scrolling marquee of sector names */
 .industry-ticker{

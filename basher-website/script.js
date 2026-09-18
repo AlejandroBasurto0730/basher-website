@@ -700,28 +700,6 @@ function initServiceAccordion(){
   }
 }
 
-// Industries banner: swaps the illustration to match whichever sector
-// accordion the visitor opens (index.html + about.html share this markup).
-function initIndustryIllustration(){
-  const illos = document.querySelectorAll(".sector-illustration");
-  if (!illos.length) return;
-  const SECTOR_BY_ID = {
-    "sector-consumo": "consumo",
-    "sector-industrial": "industrial",
-    "sector-servicios": "servicios",
-    "sector-financiero": "financiero"
-  };
-  document.querySelectorAll(".services-list .service-detail").forEach(section=>{
-    const key = SECTOR_BY_ID[section.id];
-    if (!key) return;
-    const toggle = section.querySelector(".service-detail-toggle");
-    if (!toggle) return;
-    toggle.addEventListener("click", ()=>{
-      illos.forEach(el => el.classList.toggle("is-active", el.dataset.sector === key));
-    });
-  });
-}
-
 function initScrollReveal(){
   const els = document.querySelectorAll(".reveal");
   if (!els.length) return;
@@ -749,6 +727,5 @@ document.addEventListener("DOMContentLoaded", ()=>{
   initHeroParallax();
   initNetworkMap();
   initServiceAccordion();
-  initIndustryIllustration();
   initScrollReveal();
 });
