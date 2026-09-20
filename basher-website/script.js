@@ -191,7 +191,10 @@ const I18N = {
       placeholderSubject: "How can we help?",
       placeholderMessage: "Tell us a bit about your company and what you need...",
       submit: "Send message",
-      note: "This form opens your email client addressed to contacto@basher.mx — no data is stored or sent anywhere else."
+      sending: "Sending…",
+      success: "Thanks — your message was sent. We'll get back to you shortly.",
+      error: "Something went wrong sending your message. Please try again or email us directly.",
+      note: "Your message goes directly to our team — we typically reply within one business day."
     }
   },
 
@@ -383,7 +386,10 @@ const I18N = {
       placeholderSubject: "¿Cómo podemos ayudarte?",
       placeholderMessage: "Cuéntanos un poco sobre tu empresa y lo que necesitas...",
       submit: "Enviar mensaje",
-      note: "Este formulario abre tu cliente de correo dirigido a contacto@basher.mx — no se almacena ni se envía información a ningún otro lugar."
+      sending: "Enviando…",
+      success: "Gracias — tu mensaje fue enviado. Te responderemos a la brevedad.",
+      error: "Hubo un problema al enviar tu mensaje. Intenta de nuevo o escríbenos directamente por correo.",
+      note: "Tu mensaje llega directo a nuestro equipo — normalmente respondemos en menos de un día hábil."
     }
   }
 };
@@ -463,14 +469,56 @@ function initYear(){
 function initContactForm(){
   const form = document.getElementById("contactForm");
   if (!form) return;
-  form.addEventListener("submit", (e)=>{
+  const note = form.querySelector(".form-note");
+  const noteDefaultKey = note ? note.getAttribute("data-i18n") : null;
+  const submitBtn = form.querySelector("button[type=submit]");
+  const submitDefaultKey = submitBtn ? submitBtn.getAttribute("data-i18n") : null;
+
+  function setNote(key, isError){
+    if (!note) return;
+    const lang = getLang();
+    note.textContent = I18N[lang].contact[key];
+    note.style.color = isError ? "#c0392b" : "";
+  }
+
+  form.addEventListener("submit", async (e)=>{
     e.preventDefault();
-    const name = form.querySelector("#cf-name").value.trim();
-    const email = form.querySelector("#cf-email").value.trim();
-    const subject = form.querySelector("#cf-subject").value.trim() || "Website inquiry";
-    const message = form.querySelector("#cf-message").value.trim();
-    const body = `${message}\n\n— ${name} (${email})`;
-    window.location.href = `mailto:contacto@basher.mx?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    if (form.dataset.submitting === "true") return;
+    form.dataset.submitting = "true";
+
+    const lang = getLang();
+    if (submitBtn) submitBtn.textContent = I18N[lang].contact.sending;
+    if (submitBtn) submitBtn.disabled = true;
+
+    const formData = new FormData(form);
+    formData.set("access_key", "905a2f8a-1d2a-4a99-9ef2-b7feca9268df");
+    formData.set("name", form.querySelector("#cf-name").value.trim());
+    formData.set("email", form.querySelector("#cf-email").value.trim());
+    formData.set("subject", form.querySelector("#cf-subject").value.trim() || "Website inquiry — basher.mx");
+    formData.set("message", form.querySelector("#cf-message").value.trim());
+    formData.set("from_name", "Basher website contact form");
+
+    try {
+      const res = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formData
+      });
+      const data = await res.json();
+      if (data.success) {
+        setNote("success", false);
+        form.reset();
+      } else {
+        setNote("error", true);
+      }
+    } catch (err) {
+      setNote("error", true);
+    } finally {
+      form.dataset.submitting = "false";
+      if (submitBtn) {
+        submitBtn.disabled = false;
+        submitBtn.textContent = I18N[getLang()].contact.submit;
+      }
+    }
   });
 }
 
